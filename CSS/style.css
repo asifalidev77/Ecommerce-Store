@@ -1,0 +1,254 @@
+*{
+    font-family: "Albert Sans", sans-serif;
+}
+h2{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+i{
+    padding: 10px;
+    color: black;
+    background-color:rgb(235,235,235);
+    border-radius: 50%;
+}
+i:hover{
+    background-color: #EB001B;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ED9721;
+    /* color: #EB001B; */
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ED9721;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+}
+.dropbtn i{
+    background-color: #ED9721;
+    padding: 5px;
+    color: white;
+    border-radius: 50%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+    border: 1px solid #ccc;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+.active{
+    color: #ED9721 !important;
+}
+.srchbtn{
+    border: 1px solid #ED9721;
+    color: #ED9721;
+}
+.srchbtn:hover{
+    background-color: #ED9721;
+    color: white;
+    border: 1px solid #ED9721;
+}
+.nav-list li{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Albert Sans", sans-serif;
+}
+.nav-list li:hover{
+    color: #ED9721;
+}
+.navbarsection{
+    z-index: 1;
+    border-bottom: 1px solid rgba(110, 109, 109, 0.322);
+    background: #eff1f3;
+}
+.hero-section{
+    height: 60vh;
+    /* background-color: #EB001B; */
+    background-image: url(/Images/bg.jpg);
+    background-repeat: no-repeat;
+}
+.hero-left{
+    height: 60vh;
+}
+.hero-left h6{
+    color: #ED9721;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hero-left h1{
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.hero-left span{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1em;
+    color: #EB001B;
+}
+.hero-left p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1em;
+}
+.hero-left button{
+    background: #ED9721;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+}
+.hero-left button:hover{
+    background: #000000;
+    border: none;
+}
+.hero-right{
+    height: 60vh;
+    
+}
+.product{
+    border: 1px solid #ED9721;
+    padding: 15px;
+}
+.discont{
+    color: #EB001B;
+    margin-right: 10px;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 700px;
+}
+.feature h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1em;
+    color: #000000;
+    text-transform: capitalize;
+
+}
+.feature button{
+    background: #ED9721;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+}
+.feature button:hover{
+    background: #000000;
+    border: none;
+}
+.icon-box{
+    border: 1px solid #EB001B;
+    padding: 20px;
+    border-collapse: collapse;
+    align-content: center;
+}
+.icon-box i{
+    width: 50px;
+    height: 50px;
+    color: #ED9721;
+    background-color: #000000;
+}
+
+.deals h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.deals p{
+    text-align: justify;
+}
+.deals button{
+    background: #ED9721;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+}
+.deals button:hover{
+    background: #000000;
+    border: none;
+}
+.footer-list h3{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.footer-list ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer-list ul>li{
+    font-weight: 600;
+}
+.footer-list ul>li:hover{
+    color: #EB001B;
+}
+.newsletter h3{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.newsletter h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+
+}
+.input-mail{
+    padding: 5px;
+    border: 1px solid #ED9721;
+}
+.input-mail:hover{
+    border: 1px solid #EB001B;
+}
+.input-mail::placeholder{
+    padding-left: 5px;
+    font-size: 15px;
+    color: #000000;
+}
+.input-btn{
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    background: #000000;
+    color: #ffffff;
+}
